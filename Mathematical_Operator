@@ -50,3 +50,10 @@ console.log(x);
 X=X*3;
 X=X+10;
 console.log(X);
+
+
+
+
+
+
+////////Pulling the file for the record.
