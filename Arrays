@@ -1,0 +1,36 @@
+// Given an array print the position (starting with 1) and the element in a single line.
+
+let ar1=["A","B","C","D","E","F"];
+for (let i=0;i<ar1.length;i++){
+  console.log((i+1)+" "+ar1[i]);
+}
+
+
+
+
+//Given a character in lower case print the upper case character
+
+let required="f";
+let smalArr=["a","b","c","d","e","f"];
+let capArr=["A","B","C","D","E","F"];
+for(let i=0;i<smalArr.length;i++){
+  if(required==smalArr[i]){
+    required=capArr[i];
+  }
+}
+console.log(required);
+
+
+
+
+//Given an array of numbers find the average of all the even numbers.
+
+let ar3=[1,2,3,4,5,6,7,8,9,10];
+let sum=0;
+let count=0;
+for(let i=0;i<ar3.length;i++){
+  if(ar3[i]%2==0){
+    sum=sum+ar3[i];
+    count=count+1;
+  }
+}console.log(sum/count);

@@ -1,0 +1,147 @@
+//You are given a number stored in a variable with the namenum
+//You have to printMasai School, as many times as the number stored in the variablenum
+//Every time, printMasai Schoolon a new line
+
+function printMasaiSchool(num) {
+    // Write code here
+    for(let i=1;i<=num;i++){
+        console.log("Masai School");
+    }
+  
+}
+
+
+
+//You are given a number stored in a variable with the namenum
+//You have to print all the numbers from 1 tonum, including num as well.
+//Print each number on a new line
+
+function loop1toN(num) {
+    // Write code here
+    for(let i=1;i<=num;i++){
+        console.log(i);
+    }
+    
+}
+
+
+
+
+//You are given two numbers, stored in variables with the following names
+//max, min
+//You have to print all the numbers from min to max, excluding max. Print each number on a new line
+
+function fromAtoB(max,min){
+    //write code here
+    for(let i=min;i<max;i++){
+        console.log(i);
+    }
+    
+}
+
+
+
+
+
+//Given a number, stored in the variable with the namenum
+//Print the multiplication table of the value stored innum
+
+function multiplicationTableN(num) {
+    // Write code here
+    let a=0;
+    for(let i=1;i<=10;i++){
+        a=i*num;
+        console.log(a);
+    }
+    
+}
+
+
+
+
+
+//You are given a number, stored in a variable with the namenum
+//Print all the odd numbers lesser than or equal to the value stored innum
+//Only those numbers need to be printed which are greater than zero
+
+function moveTwoAhead(num) {
+    // Write code here
+    for(let i=1;i<=num;i++){
+        if(!(i%2==0)){
+            console.log(i);
+        }
+    }
+}
+
+
+
+
+
+//You are given a number stored in a variable with the following name,num
+//You have to print all the even numbers greater than zero, and less than or equal to the value stored innum
+
+function moveTwoAheadII(num) {
+    // Write code here
+    for(let i=1;i<=num;i++){
+        if(i%2==0){
+            console.log(i);
+        }
+    }
+    
+}
+
+
+
+
+
+//You are given a number, stored in a variable with the namenum
+//Find the sum of all even numbers greater than zero, and less than or equal to the value stored innum
+
+function evenSumBelowN(num) {
+    // Write code here
+    let sum=0;
+    for(let i=1;i<=num;i++){
+        if(i%2==0){
+            sum=sum+i;
+        }
+    }
+    console.log(sum);
+  
+}
+
+
+
+
+
+
+//You are given a number, stored in a variable with the namenum
+//Find the sum of all odd numbers, greater than 0, and less than or equal to the value stored innum
+//Finally, print the sum.
+
+function oddSumBelowN(num) {
+    // Write code here
+    let sum=0;
+    for(let i=1;i<=num;i++){
+        if(!(i%2==0)){
+            sum=sum+i;
+        }
+    }
+    console.log(sum);
+    
+}
+
+
+
+
+
+//You are given a number stored in a variable with the namenum
+//Find out the value obtained from the expressioni % 10, whereiconsists of all the values from 1 to the value stored innum, includingnum
+
+function modeof10(num) {
+    // Write code here
+    let a=0;
+    for(let i=1;i<=num;i++){
+        a=i%10;
+        console.log(a);
+    }
+}

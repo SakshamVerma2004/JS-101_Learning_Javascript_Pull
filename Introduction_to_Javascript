@@ -1,0 +1,64 @@
+//Print "Masai School" in the console followed by "A Transformation in Education" in next line
+
+console.log("Masai School");
+console.log("A Transformation in Education");
+
+
+
+//Define a variable called name with your Name as the assigned value
+//Print the value stored in the variable name
+//Change the variable to store your father's name
+//Print the value stored in the variable name
+//Change the variable again to store your mother's name.
+//Print the value stored in the variable name
+
+
+
+let name = "Saksham Verma";
+console.log(name);
+
+name = "Ashok Kumar";
+console.log(name);
+
+name = "Anita Verma";
+console.log(name);
+
+
+
+//Create a variable name to store your name
+//Create a variable age to store your age
+//Print the values stored in the variable on one line followed by the type of the variable in the next line
+
+let name = "Saksham Verma";
+let age = 18;
+console.log(name);
+console.log(age);
+
+
+//Store the name, school, grade, section, rollno and the marks scored by the student in 3 subjects
+//Print the report card of the student (You can make it look nice by using some keyboard symbols )
+
+let name = "Saksham Verma";
+let school = "  D.A.V. Public School";
+let grade = "   12th  ";
+let section = "       C";
+let rollno = "           29";
+let marks1 = "          60";
+let marks2 = "          70";
+let marks3 = "          80";
+let a = "|____Name____|";
+let b = "|______School______|";
+let c = "|__Grade__|";
+let d = "|__Section__|";
+let e = "|__RollNo__|";
+let f = "|__Marks1__|";
+let g = "|__Marks2__|";
+let h = "|__Marks3__|";
+console.log("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------RESULT--------!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+console.log("-----------------------------------------------------------------------------------------------------------------");
+console.log("-----------------------------------------------------------------------------------------------------------------");
+console.log(a, b, c, d, e, f, g, h);
+console.log("*****************************************************************************************************************");
+console.log("      ____________________________________***********************__________________________________________      ");
+console.log("*****************************************************************************************************************");
+console.log(name, school, grade, section, rollno, marks1, marks2, marks3);
