@@ -145,3 +145,9 @@ function modeof10(num) {
         console.log(a);
     }
 }
+
+
+
+
+
+////////Pulling the file for the record.
