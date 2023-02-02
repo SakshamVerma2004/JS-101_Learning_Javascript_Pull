@@ -83,3 +83,9 @@ switch(day){
   default:
     console.log("Wrong Value Entered");
 }
+
+
+
+
+
+////////Pulling the file for the record.
